@@ -18,9 +18,27 @@ header{
 }
 
 header nav{
-    
+    background-color: #d9043d;
+    color: #ffffff;
 }
 
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+header nav li{
+    padding: 0 1rem;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 
 /* 
