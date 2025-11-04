@@ -21,7 +21,6 @@ header{
 header nav{
     background-color: #d9043d;
     color: #ffffff;
-    padding: 0 auto;
 }
 
 header nav ul{
@@ -29,12 +28,13 @@ header nav ul{
     flex-direction: row;
     list-style: none;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
     margin: 1rem auto;
 }
 
 header nav li{
-    padding: 0 1.5rem;
+    margin: 0 1.5rem;
 }
 
 header nav a{
