@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cccccc;
+    font-family: sans-serif;
+}
+
+
+
+/* 
+The site uses a sans-serif font
+The page background colour is #cccccc
+header background color: #120323
+company name & image bottom border: #97bf04
+navigation & footer background colour: #d9043d
+Any spacing not defined can be estimated
+Ensure you don't use pixels for anything other than image widths and border sizes. All other units should be relative (rem, em, %, etc.)
+Each photo has a 10px border on the bottom
+Each gallery image should scale according to the size of its container, up to 650px in width, and be centered in its container 
+*/
