@@ -28,11 +28,11 @@ header nav ul{
     list-style: none;
     align-items: center;
     justify-content: center;
-    margin: 1rem auto;
+    margin: rem auto;
 }
 
 header nav li{
-    padding: 0 1rem;
+    padding: 0 1.5rem;
 }
 
 header nav a{
