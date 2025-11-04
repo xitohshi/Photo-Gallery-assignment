@@ -10,16 +10,18 @@ body{
 
 header{
     background-color: #120323;
-    padding: 1rem;
+    color: #97bf04;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 1rem;
 }
 
 header nav{
     background-color: #d9043d;
     color: #ffffff;
+    padding: 0 auto;
 }
 
 header nav ul{
@@ -28,7 +30,7 @@ header nav ul{
     list-style: none;
     align-items: center;
     justify-content: center;
-    margin: rem auto;
+    margin: 1rem auto;
 }
 
 header nav li{
@@ -40,6 +42,10 @@ header nav a{
     color: #ffffff;
 }
 
+#gallery-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 /* 
 The site uses a sans-serif font
