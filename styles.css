@@ -5,7 +5,7 @@
 body{
     background-color: #cccccc;
     font-family: sans-serif;
-    margin: 0 auto;
+    margin: auto;
 }
 
 header{
@@ -45,6 +45,15 @@ header nav a{
 #gallery-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+#gallery-container figure{
+    background-color: #ffffff;
 }
 
 /* 
