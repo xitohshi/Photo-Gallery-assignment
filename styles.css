@@ -5,7 +5,7 @@
 body{
     background-color: #cccccc;
     font-family: sans-serif;
-    margin: auto;
+    margin: 0;
 }
 
 header{
@@ -21,23 +21,21 @@ header{
 header nav{
     background-color: #d9043d;
     color: #ffffff;
+    padding: 0 2rem;
+    width: 100%;
 }
 
 header nav ul{
     display: flex;
     flex-direction: row;
     list-style: none;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0;
-    margin: 1rem auto;
-}
-
-header nav li{
-    margin: 0 1.5rem;
+    justify-content: center;
+    padding: 0 2rem;
+    margin: 1rem;
 }
 
 header nav a{
+    margin: 0 1.5rem;
     text-decoration: none;
     color: #ffffff;
 }
@@ -48,7 +46,7 @@ header nav a{
 }
 
 img{
-    width: 200px;
+    max-width: 100%;
     height: auto;
 }
 
