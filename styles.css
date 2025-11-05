@@ -46,7 +46,7 @@ h2{
 
 #gallery-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     margin-bottom: 1rem;
 }
 
@@ -54,11 +54,17 @@ h2{
     max-width: 100%;
     height: auto;
     border-bottom: solid 10px #97bf04;
+    margin: 0 auto;
 }
 
 #gallery-container figure{
     background-color: #ffffff;
     padding: 2rem;
+}
+
+#gallery-container figure:last-child{
+    grid-column: span 2;
+
 }
 
 footer{
