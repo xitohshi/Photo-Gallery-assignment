@@ -40,6 +40,10 @@ header nav a{
     color: #ffffff;
 }
 
+h2{
+    text-align: center;
+}
+
 #gallery-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
