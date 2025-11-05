@@ -54,7 +54,6 @@ h2{
     max-width: 100%;
     height: auto;
     border-bottom: solid 10px #97bf04;
-    margin: 0 auto;
 }
 
 #gallery-container figure{
@@ -72,6 +71,29 @@ footer{
     color: #ffffff;
     text-align: center;
     padding: 2rem;
+}
+
+@media screen and (max-width: 1000px){
+
+    #gallery-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #gallery-container{
+    display: block;
+}
 }
 
 /* 
