@@ -43,15 +43,25 @@ header nav a{
 #gallery-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 1rem;
 }
 
-img{
+#gallery-container img{
     max-width: 100%;
     height: auto;
+    border-bottom: solid 10px #97bf04;
 }
 
 #gallery-container figure{
     background-color: #ffffff;
+    padding: 2rem;
+}
+
+footer{
+    background-color: #d9043d;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
 }
 
 /* 
